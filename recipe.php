@@ -1,5 +1,11 @@
 <?php
 	include_once("api/db_conx.php");
+$ingredients = '';
+$method = '';
+$name = '';
+$desc = '';
+$img = '';
+$author = '';
 	if(isset($_GET["id"])){
 		$id = htmlspecialchars($_GET['id']);
 		$sql = "SELECT * FROM recipeInfo WHERE id='$id' LIMIT 1";
