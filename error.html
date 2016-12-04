@@ -1,0 +1,24 @@
+<?php
+if(isset($_GET["error"])){
+    $error = htmlspecialchars($_GET['error']);
+    header("refresh:15;url=index.php");
+} else {
+    $error = "Error.";
+    header("Location: index.php");
+}
+?>
+<!DOCTYPE html>
+<html>
+    <?php include_once("header.php");?>
+    <head>
+        <link href="styles.css" rel="stylesheet" type="text/css">
+        <title>Gelly - <?php echo $error?></title>
+    </head>
+    <body>
+        <div id="main">
+            <div id="title">
+                <?php echo $error?>
+            </div>
+        </div>
+    </body>
+</html>

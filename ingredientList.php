@@ -1,0 +1,23 @@
+var availableAttributes = [
+            "eggs",
+            "bacon",
+            "banana",
+            "mayo",
+            "cheese",
+            "sauce",
+            "tortillas",
+            "flour",
+            "onion",
+            "olive oil",
+            "garlic",
+            "cumin",
+            "cayenne pepper",
+            "cinnamon stick",
+            "butternut squash",
+            "carrots",
+            "parsnips",
+            "potatoes",
+            "vegetable broth",
+            "tomatoes",
+            "parsley"
+			];
